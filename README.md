@@ -3,10 +3,14 @@
 Group Members: Immaculate Ezeogbo, Melissa Hartwick, Jenarth Jegatheeswaran, Karanbir Singh Kamboj, Monica Sanchez, Reece Weigel
 
 
+
+
 #### Introduction
 COVID-19 upended the global airline industry. The sector, which accounts for 4% of the world’s GDP, could face an approximate loss of close to $400B in revenues from passenger flights. 
 
 Only recently, airlines have started to reopen their boarding gates to travellers with the announcement of a vaccine. As airlines begin to do so, we felt it was timely to use our skills to build a prediction model which would help airlines better predict flight delays and cancellations, two of the top pain points for airline customers. 
+
+
 
 
 
@@ -15,11 +19,13 @@ The objective of our analysis was to accurately predict flight delays and cancel
 
 
 
+
+
 #### Data Preparation
-[Airline On Time Performance Data](https://www.transtats.bts.gov/Tables.asp?DB_ID=120/)
+The dataset used for our analysis is called [Airline On Time Performance Data](https://www.transtats.bts.gov/Tables.asp?DB_ID=120/)  and is from the Office of Airline Information at the US Bureau of Transportation Statistics. The dataset contains information regarding non-stop domestic flights operated by US carriers that account for at least one percent of domestic scheduled passenger revenues. While the original dataset was available on a monthly basis from October 1987 to September 2020, the dataset was 13GB. Even with our big data tools, this was too big for the community edition of Databricks which has a maximum of 6GB. In the end we had to reduce our dataset to one month of data (January 2019), which still consisted of over 500,000 rows of data and 30+ variables once cleaned and prepared. 
 
 
-The dataset used for our analysis is called [Airline On Time Performance Data](https://www.transtats.bts.gov/Tables.asp?DB_ID=120/) Airline 'On-Time Performance Data' (see link above) and is from the Office of Airline Information at the US Bureau of Transportation Statistics. The dataset contains information regarding non-stop domestic flights operated by US carriers that account for at least one percent of domestic scheduled passenger revenues. While the original dataset was available on a monthly basis from October 1987 to September 2020, the dataset was 13GB. Even with our big data tools, this was too big for the community edition of Databricks which has a maximum of 6GB. In the end we had to reduce our dataset to one month of data (January 2019), which still consisted of over 500,000 rows of data and 30+ variables once cleaned and prepared. 
+
 
 
 #### Analysis & Model Development
